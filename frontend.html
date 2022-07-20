@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <h5 class="logo">GetTheJob</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse" id="demo">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" role="button" data-toggle="dropdown">
+                      Jobs
+                    </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="">Web Development</a>
+                            <a class="dropdown-item" href="#">Sales</a>
+
+                            <a class="dropdown-item" href="#">Marketing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for Jobs" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="##carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="##carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel_first.jpg" alt="Carousel Image" class="w-100 h-25" style="opacity:0.5;">
+                    <div class=" carousel-caption d-none d-md-block text-black ">
+                        <h1><i>"UNLIMITED JOBS "</i></h1>
+                        <h3>We provide tons of job vaccines here. Grab a chance to enroll in the jobs you want right now. </h3>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="carousel2.jpg " alt="Carousel Image " class="w-100 h-25 " style="opacity:0.5; ">
+                    <div class="carousel-caption d-none d-md-block text-black ">
+                        <h1><i>"GOOD SERVICES "</i></h1>
+                        <h3>We provide tons of job with good service you deserve. You wont regret the time you spend for the jobs we provide you. </h3>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="carousel.webp " alt="Carousel Image " class="w-100 h-25 " style="opacity:0.5; ">
+                    <div class="carousel-caption d-none d-md-block text-black">
+                        <h1><i>WHO UNDERSTANDS<br> ITS PERSONAL?<br>WE DO.</i></h1>
+                        <h3> TO US ITS ABOUT YOU.</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="prev ">
+                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="next ">
+                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                <span class="visually-hidden ">Next</span>
+            </button>
+    </header>
+    <div class="card my-5 px-5">
+        <div class="row">
+            <div class="col-md-6 align-content-center">
+                <div class=" mb-4 mt-4"> <span class=" text-muted brand">JOB DESCRIPTION</span>
+                    <h5 class="text-uppercase">Frontend developers Needed(3)</h5>
+
+                </div>
+                <img class="imf rounded-circle" src="data:image/jpeg;base64,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"
+                    alt="">
+                <p>Kirtipur valley Institute is seeking for the well experienced and skillfull Front End Developer.Interested Candidates can apply for it.</p>
+                <div class="category"><span><strong>Categories</strong></span></div>
+                <p>Experience: 1 Year in IT sector.</p>
+                <p>Qualification: Only Skill is evaluated.</p>
+                <p>Salary: Minimum of Rs.30000</p>
+                <P>Skills: HTML, CSS-3, Bootstrap-5 & Javascript.</P>
+
+            </div>
+            <div class="main col-md-6">
+
+                <div class="form_apply col-md-6 mr-0">
+                    <form>
+                        <h5 style="margin-top:px;">
+                            <spam>(FILL HERE TO APPLY)</spam>
+                        </h5>
+                        <img src="download.webp" class="rounded-circle" height="50px" width="50px"><br>
+                        <label class="font-weight-bold text-primary"><u>USERNAME:</u></label>
+                        <input type="text" class="form-control font-weight-bold text-primary" id="username" placeholder="Enter your Username ">
+
+                        <label class="font-weight-bold text-primary"><u>EMAIL:</u></label>
+                        <input type="email" class="form-control font-weight-bold text-primary" id="email" placeholder="Enter your Email ">
+
+                        <label class="font-weight-bold text-primary"><u>Date of Birth:</u></label>
+                        <input type="date" class="form-control font-weight-bold text-primary" id="dob" placeholder="Date">
+
+                        <label class="font-weight-bold text-primary"><u>Sex:</u></label><br>
+                        <input type="radio" id="Male" name="Sex" value="Male">
+                        <label>Male</label><br>
+                        <input type="radio" id="Female" name="Sex" value="Female">
+                        <label>Female</label><br>
+                        <input type="text" class="form-control font-weight-bold text-primary" placeholder="Degree(Eg: BE-IT, BIT)">
+                        <input type="submit" class="btn btn-primary mt-2 mb-2" onclick=function() value="APPLY NOW">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" ft badge-dark text-white text-center ">
+        <div class="row justify-content-center">
+            <div class="col-sm-3  my-5 " style="font-size: 20px;">
+                <h4>Quick Links</h4>
+                <div class="links align-self-center">
+                    <a href="main.html">Home</a><br>
+                    <a href="main.html">Jobs & Services</a><br>
+                    <a href="#">About Us </a><br>
+                    <a href="contact.html">Contact Us</a><br>
+                    <a href="#"></a>
+
+                </div>
+            </div>
+            <div class="col-sm-3 justify-content-center my-5" id="contact">
+                <form>
+                    <h5 class="text-center text-white mt-4">Contact Us</h5>
+                    <i class="fa fa-phone text-white font-weight-bolder mb-3 align-items-center">      079-42067</i><br>
+                    <strong>GetTheJob Pvt.Ltd.</strong><i class="fa fa-location-arrow text-white font-weight-bolder mb-3 align-items-center">Baneshowr, Kathmandu</i><br>
+                    <input type="email" class="form-control" placeholder="Enter your Email">
+
+                    <textarea name="comment" id="" class="form-control bg-light text-black-50 mt-3">Your Few Lines Here</textarea><br>
+
+                    <i class="fa fa-arrow-right"></i> <input type="submit" class=" btn-primary mb-3" name="submit" value="SEND">
+
+
+                </form>
+
+
+            </div>
+            <div class="col-sm-4 align-self-center  my-5">
+                <h6 class="mt-3">Follow Us On:</h6>
+                <a href="#" class="fa fa-facebook m-2"></a>
+                <a href="#" class="fa fa-twitter m-2"></a>
+                <a href="#" class="fa fa-linkedin m-2"></a>
+                <a href="#" class="fa fa-tumblr m-2"></a>
+                <a href="#" class="fa fa-instagram m-2"></a>
+
+            </div>
+        </div>
+    </footer>
+    <div class="cp text-light text-center mt-0 bg-dark">
+        <p><strong>Copyright-2022</p></strong></div>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <h5 class="logo">GetTheJob</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse" id="demo">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" role="button" data-toggle="dropdown">
+                      Jobs
+                    </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="">Web Development</a>
+                            <a class="dropdown-item" href="#">Sales</a>
+
+                            <a class="dropdown-item" href="#">Marketing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for Jobs" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="##carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="##carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel_first.jpg" alt="Carousel Image" class="w-100 h-25" style="opacity:0.5;">
+                    <div class=" carousel-caption d-none d-md-block text-black ">
+                        <h1><i>"UNLIMITED JOBS "</i></h1>
+                        <h3>We provide tons of job vaccines here. Grab a chance to enroll in the jobs you want right now. </h3>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="carousel2.jpg " alt="Carousel Image " class="w-100 h-25 " style="opacity:0.5; ">
+                    <div class="carousel-caption d-none d-md-block text-black ">
+                        <h1><i>"GOOD SERVICES "</i></h1>
+                        <h3>We provide tons of job with good service you deserve. You wont regret the time you spend for the jobs we provide you. </h3>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="carousel.webp " alt="Carousel Image " class="w-100 h-25 " style="opacity:0.5; ">
+                    <div class="carousel-caption d-none d-md-block text-black">
+                        <h1><i>WHO UNDERSTANDS<br> ITS PERSONAL?<br>WE DO.</i></h1>
+                        <h3> TO US ITS ABOUT YOU.</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="prev ">
+                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="next ">
+                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                <span class="visually-hidden ">Next</span>
+            </button>
+    </header>
+    <div class="card my-5 px-5">
+        <div class="row">
+            <div class="col-md-6 align-content-center">
+                <div class=" mb-4 mt-4"> <span class=" text-muted brand">JOB DESCRIPTION</span>
+                    <h5 class="text-uppercase">Financial manager(1)</h5>
+
+                </div>
+                <img class="imf rounded-circle" src="data:image/png;base64,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"
+                    alt="Image Pathao">
+                <p>Pathao Nepal Pvt.ltd is seeking for the well experienced Financial as Senior.Interested Candidates can apply for it.</p>
+                <div class="category"><span><strong>Categories</strong></span></div>
+                <p>Experience: Three Years in Financial sector.</p>
+                <p>Qualification: MBA, MBS or their equivalent (CA is also accepted)</p>
+                <p>Salary: Minimum of Rs.60000</p>
+
+            </div>
+            <div class="main col-md-6">
+
+                <div class="form_apply col-md-6 mr-0">
+                    <form>
+                        <h5 style="margin-top:px;">
+                            <spam>(FILL HERE TO APPLY)</spam>
+                        </h5>
+                        <img src="download.webp" class="rounded-circle" height="50px" width="50px"><br>
+                        <label class="font-weight-bold text-primary"><u>USERNAME:</u></label>
+                        <input type="text" class="form-control font-weight-bold text-primary" id="username" placeholder="Enter your Username ">
+
+                        <label class="font-weight-bold text-primary"><u>EMAIL:</u></label>
+                        <input type="email" class="form-control font-weight-bold text-primary" id="email" placeholder="Enter your Email ">
+
+                        <label class="font-weight-bold text-primary"><u>Date of Birth:</u></label>
+                        <input type="date" class="form-control font-weight-bold text-primary" id="dob" placeholder="Date">
+
+                        <label class="font-weight-bold text-primary"><u>Sex:</u></label><br>
+                        <input type="radio" id="Male" name="Sex" value="Male">
+                        <label>Male</label><br>
+                        <input type="radio" id="Female" name="Sex" value="Female">
+                        <label>Female</label><br>
+                        <input type="text" class="form-control font-weight-bold text-primary" placeholder="Degree(Eg: BE-IT, BIT)">
+                        <input type="submit" class="btn btn-primary mt-2 mb-2" onclick=function() value="APPLY NOW">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" ft badge-dark text-white text-center ">
+        <div class="row justify-content-center">
+            <div class="col-sm-3  my-5 " style="font-size: 20px;">
+                <h4>Quick Links</h4>
+                <div class="links align-self-center">
+                    <a href="main.html">Home</a><br>
+                    <a href="main.html">Jobs & Services</a><br>
+                    <a href="#">About Us </a><br>
+                    <a href="contact.html">Contact Us</a><br>
+                    <a href="#"></a>
+
+                </div>
+            </div>
+            <div class="col-sm-3 justify-content-center my-5" id="contact">
+                <form>
+                    <h5 class="text-center text-white mt-4">Contact Us</h5>
+                    <i class="fa fa-phone text-white font-weight-bolder mb-3 align-items-center">      079-42067</i><br>
+                    <strong>GetTheJob Pvt.Ltd.</strong><i class="fa fa-location-arrow text-white font-weight-bolder mb-3 align-items-center">Baneshowr, Kathmandu</i><br>
+                    <input type="email" class="form-control" placeholder="Enter your Email">
+
+                    <textarea name="comment" id="" class="form-control bg-light text-black-50 mt-3">Your Few Lines Here</textarea><br>
+
+                    <i class="fa fa-arrow-right"></i> <input type="submit" class=" btn-primary mb-3" name="submit" value="SEND">
+
+
+                </form>
+
+
+            </div>
+            <div class="col-sm-4 align-self-center  my-5">
+                <h6 class="mt-3">Follow Us On:</h6>
+                <a href="#" class="fa fa-facebook m-2"></a>
+                <a href="#" class="fa fa-twitter m-2"></a>
+                <a href="#" class="fa fa-linkedin m-2"></a>
+                <a href="#" class="fa fa-tumblr m-2"></a>
+                <a href="#" class="fa fa-instagram m-2"></a>
+
+            </div>
+        </div>
+    </footer>
+    <div class="cp text-light text-center mt-0 bg-dark">
+        <p><strong>Copyright-2022</p></strong></div>
+
+</body>
+
+</html>

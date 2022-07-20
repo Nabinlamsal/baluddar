@@ -1,0 +1,46 @@
+.body {
+    background: linear-gradient(to right, #c04848, #480048);
+}
+
+nav {
+    background: linear-gradient(to right, #c04848, #480048);
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    margin-left: 30px;
+}
+
+nav li {
+    margin-left: 50px;
+}
+
+.dropdown-menu {
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+.carousel-item {
+    max-height: 400px;
+}
+
+.imf {
+    max-width: 400px;
+    height: 200px;
+}
+
+.imf:hover {
+    opacity: 0.5;
+}
+
+.sec-bg {
+    background: url(/about.jpg);
+}
+
+.ft {
+    background: linear-gradient(to right, #c04848, #480048);
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <h5 class="logo">GetTheJob</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse" id="demo">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="drop" role="button" data-toggle="dropdown">
+                      Jobs
+                    </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="">Web Development</a>
+                            <a class="dropdown-item" href="#">Sales</a>
+
+                            <a class="dropdown-item" href="#">Marketing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for Jobs" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="##carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="##carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel_first.jpg" alt="Carousel Image" class="w-100 h-25" style="opacity:0.5;">
+                    <div class=" carousel-caption d-none d-md-block text-black ">
+                        <h1><i>"UNLIMITED JOBS "</i></h1>
+                        <h3>We provide tons of job vaccines here. Grab a chance to enroll in the jobs you want right now. </h3>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="carousel2.jpg " alt="Carousel Image " class="w-100 h-25 " style="opacity:0.5; ">
+                    <div class="carousel-caption d-none d-md-block text-black ">
+                        <h1><i>"GOOD SERVICES "</i></h1>
+                        <h3>We provide tons of job with good service you deserve. You wont regret the time you spend for the jobs we provide you. </h3>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="carousel.webp " alt="Carousel Image " class="w-100 h-25 " style="opacity:0.5; ">
+                    <div class="carousel-caption d-none d-md-block text-black">
+                        <h1><i>WHO UNDERSTANDS<br> ITS PERSONAL?<br>WE DO.</i></h1>
+                        <h3> TO US ITS ABOUT YOU.</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="prev ">
+                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleCaptions " data-bs-slide="next ">
+                <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                <span class="visually-hidden ">Next</span>
+            </button>
+    </header>
+    <div class="card my-5 px-5">
+        <div class="row">
+            <div class="col-md-6 align-content-center">
+                <div class=" mb-4 mt-4"> <span class=" text-muted brand">JOB DESCRIPTION</span>
+                    <h5 class="text-uppercase">backend developers needed(3)</h5>
+
+                </div>
+                <img class="imf rounded-circle" src="data:image/jpeg;base64,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"
+                    alt="">
+                <p>Yottabyte Company of Information and Technology is seeking for the well experienced and skillfull Larvel and Python developers.</p>
+                <div class="category"><span><strong>Categories</strong></span></div>
+                <p>Experience: Two Years in IT sector.</p>
+                <p>Qualification: BE-Computer, BSc.CSIT or Bachelores Degree Equivalent in IT & CS.</p>
+                <p>Salary: Minimum of Rs.50000</p>
+                <P>Programming Languages: PHP and Python in Priority.</P>
+
+            </div>
+            <div class="main col-md-6">
+
+                <div class="form_apply col-md-6 mr-0">
+                    <form>
+                        <h5 style="margin-top:px;">
+                            <spam>(FILL HERE TO APPLY)</spam>
+                        </h5>
+                        <img src="download.webp" class="rounded-circle" height="50px" width="50px"><br>
+                        <label class="font-weight-bold text-primary"><u>USERNAME:</u></label>
+                        <input type="text" class="form-control font-weight-bold text-primary" id="username" placeholder="Enter your Username ">
+
+                        <label class="font-weight-bold text-primary"><u>EMAIL:</u></label>
+                        <input type="email" class="form-control font-weight-bold text-primary" id="email" placeholder="Enter your Email ">
+
+                        <label class="font-weight-bold text-primary"><u>Date of Birth:</u></label>
+                        <input type="date" class="form-control font-weight-bold text-primary" id="dob" placeholder="Date">
+
+                        <label class="font-weight-bold text-primary"><u>Sex:</u></label><br>
+                        <input type="radio" id="Male" name="Sex" value="Male">
+                        <label>Male</label><br>
+                        <input type="radio" id="Female" name="Sex" value="Female">
+                        <label>Female</label><br>
+                        <input type="text" class="form-control font-weight-bold text-primary" placeholder="Degree(Eg: BE-IT, BIT)">
+                        <input type="submit" class="btn btn-primary mt-2 mb-2" onclick=function() value="APPLY NOW">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class=" ft badge-dark text-white text-center ">
+        <div class="row justify-content-center">
+            <div class="col-sm-3  my-5 " style="font-size: 20px;">
+                <h4>Quick Links</h4>
+                <div class="links align-self-center">
+                    <a href="main.html">Home</a><br>
+                    <a href="main.html">Jobs & Services</a><br>
+                    <a href="#">About Us </a><br>
+                    <a href="contact.html">Contact Us</a><br>
+                    <a href="#"></a>
+
+                </div>
+            </div>
+            <div class="col-sm-3 justify-content-center my-5" id="contact">
+                <form>
+                    <h5 class="text-center text-white mt-4">Contact Us</h5>
+                    <i class="fa fa-phone text-white font-weight-bolder mb-3 align-items-center">      079-42067</i><br>
+                    <strong>GetTheJob Pvt.Ltd.</strong><i class="fa fa-location-arrow text-white font-weight-bolder mb-3 align-items-center">Baneshowr, Kathmandu</i><br>
+                    <input type="email" class="form-control" placeholder="Enter your Email">
+
+                    <textarea name="comment" id="" class="form-control bg-light text-black-50 mt-3">Your Few Lines Here</textarea><br>
+
+                    <i class="fa fa-arrow-right"></i> <input type="submit" class=" btn-primary mb-3" name="submit" value="SEND">
+
+
+                </form>
+
+
+            </div>
+            <div class="col-sm-4 align-self-center  my-5">
+                <h6 class="mt-3">Follow Us On:</h6>
+                <a href="#" class="fa fa-facebook m-2"></a>
+                <a href="#" class="fa fa-twitter m-2"></a>
+                <a href="#" class="fa fa-linkedin m-2"></a>
+                <a href="#" class="fa fa-tumblr m-2"></a>
+                <a href="#" class="fa fa-instagram m-2"></a>
+
+            </div>
+        </div>
+    </footer>
+    <div class="cp text-light text-center mt-0 bg-dark">
+        <p><strong>Copyright-2022</p></strong></div>
+
+</body>
+
+</html>
